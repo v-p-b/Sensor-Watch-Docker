@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  sensorwatch:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+        - "./Sensor-Watch:/sw"
