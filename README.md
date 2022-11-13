@@ -18,8 +18,9 @@ docker-compose up
 
 The emulator is available at http://localhost:8000/watch.html
 
-TODO
-----
+To build the native firmware, set the `BUILD_ACTION` environment variable to `native`:
 
-- Use the same Docker image to build the native firmware
+```
+BUILD_ACTION=native docker-compose up
+```
 
